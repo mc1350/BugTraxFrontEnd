@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: Roboto;
+}
+
+.background {
+  position: absolute;
+  background: linear-gradient(90deg, rgba(39,53,73,1) 0%, rgba(16,185,129,1) 35%, rgba(236,253,245,1) 100%);
+  width: stretch;
+  height: 20vh;
+  z-index: -1;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.login {
+  position: absolute;
+  background: linear-gradient(90deg, rgba(39,53,73,1) 0%, rgba(16,185,129,1) 35%, rgba(236,253,245,1) 100%);
+  width: stretch;
+  height: stretch;
+  z-index: -1;
+}
+.nav {
+  display: flex 1;
+  justify-content: center;
+  text-align: center;
+  padding-top: 8vh;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.MuiButtonBase-root-MuiButton-root {
+  color: #2B283A
+}
+
+.form {
+  display:flex;
+  flex-direction: row;
+}
